@@ -1,0 +1,136 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Math Game: Epsilon</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script type="text/javascript" src="./js/main.js"></script>
+</head>
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="index.html" class="smoothScroll"><img id="navimg" src="img/Epsilon.png" alt="Academy Math Game: Epsilon" height="25" onload="$('navimg').css('height, .75*$('.navbar').height())" ></a>
+    </div>
+    <div>
+      <ul class="nav navbar-nav">
+        <!--<li><a href="#top" class="smoothScroll">Home</a></li>-->
+        <li><a href="#about" class="smoothScroll">About</a></li>
+        <li><a href="#download" class="smoothScroll">Download</a></li>
+        <li><a href="#contact" class="smoothScroll">Contact Us</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<body onload="$('#myCarousel').carousel()">
+<div id="myScrollSpy">
+<div id="top" style="background-color:#004a11; text-align: center; color: white;">
+    <div id="topCarousel" class="carousel slide" data-ride="carousel" style="position: relative;
+    margin-top: 51px; align-content: center;">
+     <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#topCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#topCarousel" data-slide-to="1"></li>
+      <li data-target="#topCarousel" data-slide-to="2"></li>
+      <li data-target="#topCarousel" data-slide-to="3"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner" role="listbox">
+      <div class="item active">
+        <img class="fadeIn" src="img/menu.jpg" alt="Main Menu" width="600" height="400">
+      </div>
+      <div class="item">
+        <img src="img/ingame.jpg" alt="In Game" width="600" height="400">
+      </div>
+      <div class="item">
+        <img src="img/home.jpg" alt="Home" width="600" height="400">
+      </div>
+        <div class="item">
+        <img src="img/gameset.png" alt="Game Settings" width="600" height="400">
+      </div>
+      
+    <!-- Left and right controls - Not working at the moment due to the inclusion of smoothscroll.js file
+    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>-->
+    
+    
+    </div>
+</div>
+
+<div id="about" style="background-color: white; text-align: center; text-color: white;">
+<div class="container greyText" width="100%">
+    </br>
+    </br>
+    <h1 class="fadeIn two" >About Us</h1>
+    <div class="row">
+    <div class="col-sm-3">
+        <img class="fadeIn three" src="img/java.png">
+    </div>
+    <div class="col-sm-3">
+        <h3 class="fadeIn three">The Project</h3>
+        <p class="fadeIn three">The Academy Math Game: Epsilon is a computer desktop application designed to help students of all ages refine their arithmetic and number sense skills. It is designed and maintained by a team students at the Middlesex County Academy for Science, Mathematics, and Engineering Technologies.</p>
+<p class="fadeIn three"> The game was first conceptualized by Ms. Sofia Vaksman, an Academy math teacher and advisor to the team of students now maintaining the project. It was originally prototyped in the Visual Basic programming language and has since been ported over to the Java programming language.
+</p>
+    </div>
+    <div class="col-sm-3 fadein three">
+        <h3 class="fadeIn three">The School</h3>
+        <p class="fadeIn three">The Middlesex County Academy for Science, Mathematics, and Engineering Technologies, is a highly acclaimed public high school in Edison, NJ. Consistently ranked among the top public high schools in the state of New Jersey and the nation, the Academy is home to an innovative group of students. Through a rigorous curriculum and abundant extracurricular activities, Academy students begin to learn the skills necessary for success a career in the applied sciences. </p>
+    </div>
+    <div class="col-sm-3 fadein three">
+        <img class="fadeIn three" src="img/crest.png">
+    </div>
+    </div>
+    </br>
+    </br>
+</div> 
+</div>
+<div id="download" class="fadeIn three" style="background-color: #004a11; text-align: center; text-color: white;">
+<div class="jumbotron fadeIn three" width="100%" style="background-color: #004a11;">
+
+    <h1>Download Now!</h1>
+    <h3 style="color: #bcbcbc">Please ensure you have the Java runtime installed</h3>
+    </br>
+    <a href="releases/MathGames.jar">
+    <button type="button" class="btn btn-default">
+    <span class="glyphicon glyphicon-download"></span> Download
+        </button></a>
+    
+</div> 
+</div>
+<div id="contact" style="background-color: white; text-align: center; text-color: white;">
+<div class="jumbotron fadeIn three greyText" width="100%" style="background-color: white;">
+
+    <h1 style="color: #535353;">Questions? Comments? Concerns?</h1>
+    <h3>Contact Us!</h3>
+    </br> </br>
+    <a href="mailto:vaksmans@mcvts.net">
+    <button type="button" class="btn btn-default">
+    <span class="glyphicon glyphicon-envelope"></span> Ms. Sofia Vaksman
+        </button></a> </br> </br> </br>
+    <a href="https://github.com/himat/Math-Game">
+    <button type="button" class="btn btn-default">
+    <span class="glyphicon glyphicon-th-list"></span> Check Out our GitHub!
+    </button></a>
+    
+</div> 
+</div>
+</body>
+</div>
+    
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script type="text/javascript" src="js/smoothscroll.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script type="text/javascript">
+    //$(".navHeight").css("height", $("#navigator").height());
+</script>
+
+</html>
