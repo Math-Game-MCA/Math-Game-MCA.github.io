@@ -1,0 +1,41 @@
+/api.php
+    The JSON-based API that can be called for various game functions requiring data from the database, including game seeds
+    -TODO: Needs more extensive testing and new functionslity (TBD)
+    
+/css/
+    This contains CSS files
+    
+/FileTreeInfo.txt
+    Info about the files in this repository. Listed because, well, why not?
+    
+/fonts/
+    Quite simply, this just contains fonts used in the site.
+    
+/img/
+    This contains images
+    
+/index.html
+    Main Page
+    -TODO: Update with login features and make navbar more aesthetically pleasing
+
+/js/
+    Javascript files for basic website functionality. Does not contain files required for the operation of the game itself.
+    
+/multiplayer.php
+    Handles multiplayer matchmaking
+    -TODO: Pretty much everything
+
+/multiplayerrw.php
+    Handles multiplayer data being sent and received
+    -TODO: Pretty much everything
+    
+/README.md
+    Readme file formatted in markdown
+    -TODO: Make this more informative. Perhaps this can be eventually included. Modifying requires knowlege of Github's markdown formatting.
+    
+/releases/
+    Where the binaries for the Java game are hosted, to be downloaded by users.
+    
+/Websilon/
+    Contains the browser based game. Maintained in separate repository, so it is absent from the file tree here (but can be accessed from the path in a browser)
+    -TODO: GUI portion and client side scripting. Ideally most work will be done client side to improve the speed of the game.
